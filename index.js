@@ -43,6 +43,6 @@ mongoose.connect(DB).then(()=>{
 
 //get,put,post,delete,update-CRUD
 
-app.listen(PORT,"0.0.0.0",()=>{
+app.listen(PORT,()=>{
     console.log(`connecting ad port ${PORT} ` );
 })
